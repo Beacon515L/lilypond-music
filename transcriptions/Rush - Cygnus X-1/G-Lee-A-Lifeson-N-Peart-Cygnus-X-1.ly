@@ -88,8 +88,8 @@ scoreARight = \relative c'' {
     \new Voice {e'2^\markup \tiny "(play note on instrument)" ~ |\stemUp e2. ~ e2 \fermata ~ |
     e4\( c,1\) | }
    
-  \new Voice {s2 | \stemDown \parenthesize fs,4_\tapePlayOne \laissezVibrer s1 | 
-    \parenthesize fs'4_\tapePlayOne \laissezVibrer s4 |
+  \new Voice {s2 | \stemDown \parenthesize fs4_\tapePlayOne \laissezVibrer s1 | 
+    \parenthesize fs4_\tapePlayOne \laissezVibrer s4 |
    } >>
    \once \override TextSpanner.bound-details.left.text = \markup \column {"-2.3" \bold "Filter Cutoff"}
    \once \override TextSpanner.bound-details.right.text = "+5.0 subito -2.3"
